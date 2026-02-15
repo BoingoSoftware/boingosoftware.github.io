@@ -55,11 +55,6 @@ window.addEventListener('load', (event) => {
     }, 700);
 });
 
-document.addEventListener('click', (e) => {
-    ToggleContextMenu(false);
-    e.preventDefault();
-});
-
 function SetLanguage(langID) {
     if (langID < 3) {
         var queryResult = '';
@@ -73,11 +68,7 @@ function SetLanguage(langID) {
                 break;
             }
             case 2: {
-                queryResult = 'uk'
-                break;
-            }
-            case 3: {
-                queryResult = 'gb'
+                queryResult = 'by'
                 break;
             }
         }
@@ -106,4 +97,5 @@ document.querySelector('.dark_light_mode_button').addEventListener('click', (e) 
     var isDarkEnabled = document.body.classList.contains('dark');
 
 ToggleColorMode(isDarkEnabled);
+
 })
