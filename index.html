@@ -37,7 +37,7 @@
             </div>
 
             <div class="right_items">
-                <div class="dark_light_mode_button"></div>            
+                <div class="dark_light_mode_button"></div>
             </div>
         </div>
     </header>
@@ -75,26 +75,26 @@
         </section>
 
         <section class="download_section">
-            <h1>Download Version 2.0</h1>
+            <h1>Download Version 2.0.1</h1>
 
             <div class="download_container">
                 <div>
-                    <a href="https://github.com/BoingoSoftware/Icon-Extractor/releases/download/2.0/setup_x86.exe"
+                    <a href="https://github.com/artosiksoftware/Icon-Extractor/releases/download/2.0.1/setup_x86.exe"
                         class="download_btn">Get it for Windows x86</a>
                     <div class="download_icon"></div>
                     <span>3.69 MB</span>
                 </div>
                 <div>
-                    <a href="https://github.com/BoingoSoftware/Icon-Extractor/releases/download/2.0/setup_x64.exe"
+                    <a href="https://github.com/artosiksoftware/Icon-Extractor/releases/download/2.0.1/setup_x64.exe"
                         class="download_btn">Get it for Windows x64</a>
                     <div class="download_icon"></div>
-                    <span>3.6 MB</span>
+                    <span>3.61 MB</span>
                 </div>
                 <div>
-                    <a href="https://github.com/BoingoSoftware/Icon-Extractor/releases/download/2.0/setup_arm64.exe"
+                    <a href="https://github.com/artosiksoftware/Icon-Extractor/releases/download/2.0.1/setup_arm64.exe"
                         class="download_btn">Get it for Windows ARM64</a>
                     <div class="download_icon"></div>
-                    <span>3.68 MB</span>                   
+                    <span>3.69 MB</span>
                 </div>
             </div>
 
@@ -104,7 +104,7 @@
             <h1>Screenshots</h1>
 
             <div class="screenshot_container">
-                <img src="css/images/screenshot.png" width="700px" alt="Main window preview">
+                <img src="css/images/screenshot.png" width="700px" alt="Icon Extractor">
                 <span>Main window preview</span>
             </div>
         </section>
@@ -113,19 +113,38 @@
         <section class="section_third">
             <h1>Change Log</h1>
 
-            <h3>Version 2.0</h3>
+            <h3>Patch 2.0.1</h3>
+            <span>February 20, 2026</span>
+            <div>
+                <h4>Fixed Bugs</h4>
+                <ul>
+                    <li>Some string localizations was fixed.</li>
+                    <li>After closing file, some controls may still be enabled for user.</li>
+                    <li>Some critical files were not be included in setup distributives.</li>
+                    <li>Updates System may return an incorrect repository asset.</li>
+                    <li>Automatic update checking actually does not working.</li>
+                    <li>When minimizing and restoring main window, controls may behave weird, if Tool Bar and/or Status
+                        Bar are toggled on.</li>
+                    <li>Some controls may not change style despite application settings.</li>
+                </ul>
+                <h4>Changes</h4>
+                <ul>
+                    <li>Many old legacy and unused code were removed.</li>
+                    <li>API code has been optimized.</li>
+                    <li>Update System has been reworked.</li>
+                </ul>
+            </div>
+
+            <h3>Release 2.0</h3>
             <span>February 15, 2026</span>
             <div>
+                <h4>Key Features</h4>
                 <ul>
                     <li>New improved design.</li>
-                    <li>Segoe UI as default font for better readibility & experience.</li>
-                    <li>NET Framework 4.6.2 as new engine version (instead of 4.8) 
-                        for better compatibility.</li>
                     <li>Drag & Drop support.</li>
                     <li>Windows on ARM64 support.</li>
                     <li>Improved user-accessibility and new experiences.</li>
                     <li>More customizations.</li>
-                    <li>Optimizated and refactored code.</li>
                     <li>OTA (Over The Air) updates.</li>
                     <li>Favourites & Recent Files: go to your last files easily and quickly.</li>
                     <li>Extract icons to all sizes and from more file kinds, for example, from iOS & iPadOS packages
@@ -134,21 +153,30 @@
                     <li>Easter eggs</li>
                 </ul>
 
-                <span>Removed features</span>
+                <h4>Removed features</h4>
                 <ul>
-                    <li>You can't set custom drive icon anymore.</li>
-                    <li>Setting any icon as main app icon was removed.</li>
+                    <li>Setting custom drive icon.</li>
+                    <li>Setting any icon as main app icon.</li>
+                    <li>Icon preview in another window.</li>
                 </ul>
 
-                <span>Bug fixes</span>
+                <h4>Fixed Bugs</h4>
                 <ul>
                     <li>In previous versions working with large files (or files with many icons) may cause crash.</li>
+                </ul>
+
+                <h4>Changes</h4>
+                <ul>
+                    <li>Segoe UI as default font for better readibility & experience.</li>
+                    <li>NET Framework 4.6.2 as new engine version (instead of 4.8)
+                        for better compatibility.</li>
+                    <li>Optimized and refactored code.</li>
                 </ul>
 
                 <span>And at least 50+ more changes!</span>
             </div>
 
-            <h3>Version 1.2</h3>
+            <h3>Release 1.2</h3>
             <span>August 12, 2023</span>
             <span>
                 <ul>
@@ -157,7 +185,7 @@
                 </ul>
             </span>
 
-            <h3>Version 1.1</h3>
+            <h3>Release 1.1</h3>
             <span>August 7, 2023</span>
             <span>
                 <ul>
@@ -166,7 +194,7 @@
                 </ul>
             </span>
 
-            <h3>Version 1.0</h3>
+            <h3>Release 1.0</h3>
             <span>June 24, 2023</span>
             <span>
                 <ul>
@@ -195,8 +223,7 @@
                     <div class="footer_social_button" id="tg"></div>
                 </a>
 
-                <a href="https://youtube.com/@rynex_pc" target="_blank" title="Youtube"
-                    class="social_button_container">
+                <a href="https://youtube.com/@rynex_pc" target="_blank" title="Youtube" class="social_button_container">
                     <div class="footer_social_button" id="yt"></div>
                 </a>
 
@@ -209,6 +236,4 @@
     </footer>
 </body>
 
-
 </html>
-
